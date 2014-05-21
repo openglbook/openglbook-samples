@@ -151,7 +151,7 @@ void RenderFunction(void)
 
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   
-  glDrawArrays(GL_TRIANGLE_STRIP, 0, 21);
+  glDrawArrays(GL_TRIANGLE_STRIP, 0, 28);
 
   glutSwapBuffers();
   glutPostRedisplay();

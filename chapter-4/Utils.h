@@ -21,12 +21,7 @@ typedef struct Matrix
   float m[16];
 } Matrix;
 
-static const Matrix IDENTITY_MATRIX = { {
-  1, 0, 0, 0,
-  0, 1, 0, 0,
-  0, 0, 1, 0,
-  0, 0, 0, 1
-} };
+extern const Matrix IDENTITY_MATRIX;
 
 float Cotangent(float angle);
 float DegreesToRadians(float degrees);

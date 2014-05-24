@@ -1,5 +1,12 @@
 #include "Utils.h"
 
+const Matrix IDENTITY_MATRIX = { {
+  1, 0, 0, 0,
+  0, 1, 0, 0,
+  0, 0, 1, 0,
+  0, 0, 0, 1
+} };
+
 float Cotangent(float angle)
 {
   return (float)(1.0 / tan(angle));

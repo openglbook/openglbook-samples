@@ -178,7 +178,11 @@ GLuint LoadShader(const char* filename, GLenum shader_type)
     fclose(file);
   }
   else
+  {
+    if (NULL != file)
+      fclose(file);
     fprintf(stderr, "ERROR: Could not open file %s\n", filename);
+  }
 
   return shader_id;
 }

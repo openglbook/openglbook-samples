@@ -178,7 +178,6 @@ void RenderFunction(void)
   }
 
   glutSwapBuffers();
-  glutPostRedisplay();
 }
 
 void IdleFunction(void)

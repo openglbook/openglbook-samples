@@ -147,7 +147,6 @@ void RenderFunction(void)
   DrawCube();
   
   glutSwapBuffers();
-  glutPostRedisplay();
 }
 
 void IdleFunction(void)

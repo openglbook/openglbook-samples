@@ -100,7 +100,6 @@ void RenderFunction(void)
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
   glutSwapBuffers();
-  glutPostRedisplay();
 }
 
 void IdleFunction(void)

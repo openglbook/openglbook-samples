@@ -154,7 +154,6 @@ void RenderFunction(void)
   glDrawArrays(GL_TRIANGLES, 0, 3);
 
   glutSwapBuffers();
-  glutPostRedisplay();
 }
 
 void IdleFunction(void)

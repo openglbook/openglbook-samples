@@ -212,7 +212,7 @@ void CreateVBO(void)
   glBufferData(GL_ARRAY_BUFFER, BufferSize, Vertices, GL_STATIC_DRAW);
 
   glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, VertexSize, 0);
-  glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, VertexSize, (GLvoid*)RgbOffset);
+  glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, VertexSize, NULL + RgbOffset);
 
   glEnableVertexAttribArray(0);
   glEnableVertexAttribArray(1);
